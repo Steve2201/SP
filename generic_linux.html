@@ -10,99 +10,125 @@
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
+<!-- Header -->
+<header id="header">
+	<div class="inner">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+		<!-- Logo -->
+			<a href="index.html" class="logo">
+				<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+			</a>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
+		<!-- Nav -->
+			<nav>
+				<ul>
+					<li><a href="#menu">Menu</a></li>
+				</ul>
+			</nav>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+	</div>
+</header>
 
-						</div>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic_git.html">Git</a></li>
-							<li><a href="generic_linux.html">Linux</a></li>
-							<li><a href="generic_rez.html">rez</a></li>
-						</ul>
-					</nav>
-
+<!-- Menu -->
+<nav id="menu">
+	<h2>Menu</h2>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="generic_git.html">Git</a></li>
+		<li><a href="generic_linux.html">Linux</a></li>
+		<li><a href="generic_rez.html">rez</a></li>
+	</ul>
+</nav>
 				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Основи Git</h1>
-							<span class="image main"><img src="images/pic16.png" alt="" /></span>
-  							  <h2>1. Коротка інформація про системи контролю версій та Git</h2>
-    							<p><strong>Система контролю версій</strong> (VCS - Version Control System) дозволяє відстежувати зміни у файлах та керувати ними. Git — це одна з найпопулярніших розподілених систем контролю версій, яка дозволяє кожному учаснику зберігати повну копію репозиторію.</p>
-   							 <h2>2. Основні можливості та переваги використання Git</h2>
-   								 <ul>
-   								     <li>Розподілена архітектура</li>
-   								     <li>Паралельна розробка</li>
-   								     <li>Відкат до попередніх версій</li>
-   								     <li>Протоколювання змін</li>
-   								     <li>Підтримка командної роботи</li>
-   								     <li>Ефективне злиття змін</li>
-   								     <li>Легка інтеграція з CI/CD</li>
-   								 </ul>
-   							 <h2>3. 10 базових команд Git</h2>
-   								 <ol>
-   								     <li>
-   								         <code>git init</code> - Ініціалізація нового репозиторію Git у поточній директорії.
-   								         <pre>git init</pre>
-   								     </li>
-   								     <li>
-   								         <code>git clone &lt;url&gt;</code> - Клонування існуючого віддаленого репозиторію на локальний комп'ютер.
-   								         <pre>git clone https://github.com/username/repository.git</pre>
-   								     </li>
-   								     <li>
-   								         <code>git status</code> - Показує статус робочого каталогу та індексу.
-   								         <pre>git status</pre>
-   								     </li>
-   								     <li>
-   								         <code>git add &lt;file&gt;</code> - Додає файл у staging для наступного коміту.
-   								         <pre>git add file.txt</pre>
-   								     </li>
-   								     <li>
-   								         <code>git commit -m "Коментар"</code> - Створює коміт з описом.
-   								         <pre>git commit -m "Додавання нової функції"</pre>
-   								     </li>
-   								     <li>
-   								         <code>git log</code> - Показує журнал комітів.
-   								         <pre>git log</pre>
-   								     </li>
-   								     <li>
-   								         <code>git branch</code> - Перегляд або створення нових гілок.
-   								         <pre>git branch</pre>
-   								     </li>
-   								     <li>
-   								         <code>git checkout &lt;branch&gt;</code> - Перемикання між гілками.
-   								         <pre>git checkout new-feature</pre>
-   								     </li>
-   								     <li>
-   								         <code>git merge &lt;branch&gt;</code> - Об'єднання змін з іншої гілки.
-   								         <pre>git merge new-feature</pre>
-   								     </li>
-   								     <li>
-   								         <code>git push origin &lt;branch&gt;</code> - Відправка локальних змін у віддалений репозиторій.
-   								         <pre>git push origin main</pre>
-   								     </li>
-   								 </ol>
-						</div>
-					</div>
+<div id="main">
+    <div class="inner">
+        <h1>Основи GNU/Linux</h1>
+        <span class="image main"><img src="images/linux.jpg" alt="GNU/Linux" /></span>
+
+        <h2>1. Коротка інформація про операційну систему GNU/Linux</h2>
+        <p><strong>GNU/Linux</strong> — це вільна операційна система, заснована на ядрі Linux та компонентах проєкту GNU. Вона надає широкий спектр можливостей для розробників, системних адміністраторів і звичайних користувачів завдяки гнучкості, безпеці та відкритому коду. Linux є популярною операційною системою на серверах, мобільних пристроях (як Android), а також на персональних комп'ютерах.</p>
+
+        <h2>2. Найбільш популярні дистрибутиви GNU/Linux</h2>
+        <ul>
+            <li><strong>Ubuntu:</strong> Зручний для новачків дистрибутив, популярний серед користувачів десктопів.</li>
+            <li><strong>Debian:</strong> Один із найстаріших дистрибутивів, відомий своєю стабільністю та надійністю.</li>
+            <li><strong>Fedora:</strong> Дистрибутив, орієнтований на новітні технології та розробку.</li>
+            <li><strong>Arch Linux:</strong> Гнучкий дистрибутив, який надає повний контроль користувачеві.</li>
+            <li><strong>CentOS:</strong> Відповідає корпоративним вимогам, використовується на серверах.</li>
+            <li><strong>Linux Mint:</strong> Зручний дистрибутив для переходу з Windows на Linux.</li>
+            <li><strong>OpenSUSE:</strong> Пропонує різноманітні інструменти для адміністрування та розробки.</li>
+        </ul>
+
+        <h2>3. Приклади команд роботи в Linux CLI</h2>
+        <ol>
+            <li>
+                <code>pwd</code> — Показує поточну директорію.
+                <pre>pwd</pre>
+            </li>
+            <li>
+                <code>echo</code> — Виводить текст або змінні в термінал.
+                <pre>echo "Привіт, світ!"</pre>
+            </li>
+            <li>
+                <code>ls</code> — Виводить список файлів у поточній директорії.
+                <pre>ls</pre>
+            </li>
+            <li>
+                <code>cd</code> — Змінює поточну директорію.
+                <pre>cd /home/user</pre>
+            </li>
+            <li>
+                <code>touch</code> — Створює новий файл.
+                <pre>touch newfile.txt</pre>
+            </li>
+            <li>
+                <code>mkdir</code> — Створює нову директорію.
+                <pre>mkdir newfolder</pre>
+            </li>
+            <li>
+                <code>cp</code> — Копіює файли.
+                <pre>cp file.txt /home/user/</pre>
+            </li>
+            <li>
+                <code>mv</code> — Переміщує або перейменовує файли.
+                <pre>mv file.txt newfile.txt</pre>
+            </li>
+            <li>
+                <code>rm</code> — Видаляє файли.
+                <pre>rm file.txt</pre>
+            </li>
+            <li>
+                <code>history</code> — Показує історію команд.
+                <pre>history</pre>
+            </li>
+        </ol>
+
+        <h2>4. BASH-сценарій для авторизації</h2>
+        <p>Нижче наведений простий BASH-скрипт, що імітує авторизацію користувача в текстовому режимі:</p>
+        <pre><code>
+#!/bin/bash
+# Скрипт авторизації користувача
+
+username="user"
+password="password"
+
+echo "Введіть логін:"
+read input_user
+
+echo "Введіть пароль:"
+read -s input_pass
+
+if [[ "$input_user" == "$username" && "$input_pass" == "$password" ]]; then
+    echo "Авторизація успішна!"
+else
+    echo "Неправильний логін або пароль!"
+fi
+        </code></pre>
+
+        <span class="image main"><img src="images/linux_certificate.jpg" alt="Linux Terminal" /></span>
+    </div>
+</div>
+
 
 				<!-- Footer
 					<footer id="footer">
